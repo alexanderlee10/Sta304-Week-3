@@ -1,13 +1,13 @@
 
 ---
-title: "My title"
-subtitle: "My subtitle if needed"
+title: "Marriages in Toronto before and After Covid"
+subtitle: "Marriage is toguh"
 author: 
   - Alex Lee
 thanks: "Code and data are available at: LINK."
 date: today
 date-format: long
-abstract: "Marriages in Toronto "
+abstract: "Marriages in Toronto before and After Covid"
 format: pdf
 number-sections: true
 bibliography: references.bib
@@ -42,9 +42,9 @@ Some of our data is of penguins (@fig-marriage), from @palmerpenguins.
 #| fig-cap: Bills of penguins
 #| echo: false
 
-data |> 
-  ggplot(aes(x = date, y = marriage_licenses)) +
-  geom_point()
+#data |> 
+  #ggplot(aes(x = date, y = marriage_licenses)) +
+  #geom_point()
 
 ```
 
